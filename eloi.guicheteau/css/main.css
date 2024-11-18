@@ -6,107 +6,110 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-main {
-    width: 80%;
+
+
+body {
+    background-image: url("../image/dac.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.main-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+    min-height: 100vh;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1100px;
+    width: 80%;
+}
+
+.hero-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 116px;
-    align-items: center;
     margin-bottom: 72px;
+    width: 100%;
 }
 
-.main-content {
-    width: 445px;
+
+
+.hero-content {
+    min-width: 445px;
 }
 
-h1 {
+.main-heading {
+    color: blueviolet;
     font-size: 56px;
-    font-weight: 700;
-    letter-spacing: -2px;
-    color: #512051;
+    line-height: 48px;
 }
 
-p {
-    font-size: 18px;
+
+.product-description {
+    color: rgb(191, 146, 233);
+    font-size: 20px;
     line-height: 25px;
 }
 
-.sous-titre {
-    color: #927B91;
-    font-weight: 500;
-    letter-spacing: -0.63;
+
+
+.rating-reports {
+    list-style-type: none;
+    max-width: 445px;
+    padding-left: 0;
 }
 
 
-li {
-    width: 445px;
-    list-style: none;
-    background-color: #F7F2F7;
-    display: flex;
-    align-items: center;
+.rating-report {
+    background-color: #fff;
     border-radius: 8px;
     margin-bottom: 16px;
-    padding-left: 32px;
-}
-
-.etoile {
-    padding-right: 32px;
-}
-
-.réputation {
-    color: #512051;
-    font-size: 16px;
-    font-weight: 700;
+    padding: 20px 72px 20px 32px;
 }
 
 
-.avis-list {
+.rating-report-info {
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+
+
+.user-cards {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.avis-conteneur {
-    width: 350px;
-    background-color: #512051;
-    margin-right: 32px;
-    color: white;
-    padding-left: 32px;
-    padding-top: 20px;
-    padding-right: 32px;
-    padding-bottom: 8px;
-    border-radius: 8px;
+    flex-direction: row;
+    gap: 32px;
 }
 
 
-.profil {
+.user-card-header {
+    display: flex;
+}
+
+
+
+.user-profile-picture {
     border-radius: 100%;
-    margin-right: 24px;
+    height: 40px;
+    margin-right: 32px;
+    width: 40px;
 }
 
 
-.nom-photo {
-    display: flex;
-    align-items: center;
-}
 
-.avis {
-    font-size: 16px;
-    letter-spacing: -0.3px;
+.user-name {
+    font-weight: bold;
+    margin: 0;
 }
 
 
-span {
-    color: #EE69A4;
+
+.user-type {
+    color: rosybrown;
+    font-weight: 400;
+    margin: 0;
 }
 
-
-.font {
-    margin-left: auto;
-    display: block;
-    margin-top: -520px;
-}
