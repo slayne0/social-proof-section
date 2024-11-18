@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.main-content {
+    width: 445px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    color: #512051;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.sous-titre {
+    color: #927B91;
+    font-weight: 500;
+    letter-spacing: -0.63;
+}
+
+
+li {
+    width: 445px;
+    list-style: none;
+    background-color: #F7F2F7;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding-left: 32px;
+}
+
+.etoile {
+    padding-right: 32px;
+}
+
+.réputation {
+    color: #512051;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.avis-list {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.avis-conteneur {
+    width: 350px;
+    background-color: #512051;
+    margin-right: 32px;
+    color: white;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+
+.profil {
+    border-radius: 100%;
+    margin-right: 24px;
+}
+
+
+.nom-photo {
+    display: flex;
+    align-items: center;
+}
+
+.avis {
+    font-size: 16px;
+    letter-spacing: -0.3px;
+}
+
+
+span {
+    color: #EE69A4;
+}
+
+
+.font {
+    margin-left: auto;
+    display: block;
+    margin-top: -520px;
+}
